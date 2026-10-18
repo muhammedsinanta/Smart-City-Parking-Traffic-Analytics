@@ -6,6 +6,10 @@ This project analyzes smart city parking and traffic data using Microsoft Power 
 
 The dashboard provides insights that can support data-driven decisions for improving parking management and urban traffic planning.
 
+## Dashboard Preview
+
+![Smart City Parking and Traffic Dashboard](screenshot/smart_city_dashboard.png)
+
 ## Objectives
 
 * Analyze total revenue generated from parking.
@@ -79,24 +83,21 @@ The prepared data was analyzed to explore:
 
 Smart-City-Parking-Traffic-Analytics/
 │
-├── README.md
-│
 ├── dashboard/
-│   └── smart_city_traffic_and_parking_analytics.pbix
+│   └── smart_city_parking_and_traffic_analytics_project.pbix
 │
 ├── dataset/
-│   └── smart_city_dataset.csv
+│   └── Smart_City_Parking_Dataset.xlsx
 │
 ├── presentation/
-│   └── smart_city_traffic_and_parking_analytics.pptx
+│   └── Smart_City_Parking_Traffic_Analytics_PPT.pptx
 │
-└── screenshot/
-    ├── smart_city_dashboard.png
+├── screenshot/
+│   └── smart_city_dashboard.png
+│
+├── .gitattributes
+└── README.md
     
-
-## Dashboard Preview
-
-![Smart City Parking and Traffic Dashboard](screenshot/smart_city_dashboard.png)
 
 ## How to View the Project
 
