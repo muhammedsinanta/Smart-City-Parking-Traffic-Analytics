@@ -23,6 +23,24 @@ The dashboard provides insights that can support data-driven decisions for impro
 | DAX (Data Analysis Expressions) | Creating measures and performing calculations |
 | Microsoft Power BI              | Dashboard development and data visualization  |
 
+## Dataset
+
+The dataset contains the parking and traffic information used for the analysis.
+
+### Data Preparation
+
+Microsoft Excel was used to clean and prepare the dataset before importing it into Power BI.
+
+### Data Analysis
+
+The prepared data was analyzed to explore:
+
+* Parking revenue across city zones
+* Vehicle distribution and peak-hour patterns
+* Parking occupancy and congestion levels
+* Relationships between congestion and average vehicle speed
+
+
 ## Project Workflow
 
 1. **Data Cleaning:** Used Microsoft Excel to clean and prepare the dataset.
