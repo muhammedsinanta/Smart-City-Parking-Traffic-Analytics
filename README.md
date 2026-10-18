@@ -62,7 +62,7 @@ Smart-City-Parking-Traffic-Analytics/
 
 ## Dashboard Preview
 
-Dashboard screenshots are available in the `screenshots/` folder.
+![Smart City Parking and Traffic Dashboard](screenshot/smart_city_dashboard.png)
 
 ## How to View the Project
 
