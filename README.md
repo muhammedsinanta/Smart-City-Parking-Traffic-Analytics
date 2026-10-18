@@ -1,22 +1,24 @@
 # Smart City Parking & Traffic Analytics
 
-## Project Overview
+## 📌 Project Overview
 
 This project analyzes smart city parking and traffic data using Microsoft Power BI to understand parking revenue, vehicle distribution, parking occupancy, and traffic congestion patterns.
 
 The dashboard provides insights that can support data-driven decisions for improving parking management and urban traffic planning.
 
-## Dashboard Preview
+## 📊 Dashboard Preview
 
 ![Smart City Parking and Traffic Dashboard](screenshot/smart_city_dashboard.png)
 
-## Objectives
+## 🎯 Project Objectives
 
-* Analyze total revenue generated from parking.
-* Study vehicle distribution by type and peak hours.
-* Evaluate parking occupancy and congestion levels.
-* Compare revenue performance across city zones.
-* Identify opportunities to improve traffic and parking management.
+- Analyze traffic patterns and vehicle flow across different zones.
+- Examine parking utilization and occupancy patterns.
+- Identify peak traffic hours and periods of increased parking demand.
+- Analyze parking revenue across different zones.
+- Understand vehicle type distribution.
+- Explore the relationship between traffic congestion and average vehicle speed.
+- Present key findings through an interactive Power BI dashboard.
 
 ## Tools and Technologies
 
@@ -27,49 +29,58 @@ The dashboard provides insights that can support data-driven decisions for impro
 | DAX (Data Analysis Expressions) | Creating measures and performing calculations |
 | Microsoft Power BI              | Dashboard development and data visualization  |
 
-## Dataset
+## 📁 Dataset
 
-The dataset contains the parking and traffic information used for the analysis.
+The project uses a Smart City Parking and Traffic dataset containing information relevant to parking activity and traffic analysis.
 
-### Data Preparation
+**Dataset file:** `Smart_City_Parking_Dataset.xlsx`
 
-Microsoft Excel was used to clean and prepare the dataset before importing it into Power BI.
+The dataset was prepared using Microsoft Excel and transformed using Power Query before being used for dashboard development and analysis.
 
-### Data Analysis
+The analysis focuses on:
 
-The prepared data was analyzed to explore:
+- Vehicle flow and distribution
+- Parking occupancy and utilization
+- Traffic congestion patterns
+- Parking revenue
+- Peak-hour activity
+- Average vehicle speed
 
-* Parking revenue across city zones
-* Vehicle distribution and peak-hour patterns
-* Parking occupancy and congestion levels
-* Relationships between congestion and average vehicle speed
-
-
-## Project Workflow
-
-1. **Data Cleaning:** Used Microsoft Excel to clean and prepare the dataset.
-2. **Data Transformation:** Applied Power Query to transform and organize the data for analysis.
-3. **Data Analysis:** Examined parking revenue, vehicle distribution, occupancy, and traffic congestion patterns.
-4. **DAX Calculations:** Created DAX measures to calculate relevant metrics and support dashboard analysis.
-5. **Dashboard Development:** Built interactive Power BI visualizations with filters for city zones, vehicle types, and peak hours.
-6. **Insight Generation:** Identified traffic and parking patterns and developed recommendations for improving parking management.
+**Dataset source:** Kaggle — Smart City Parking & Traffic Dataset.
 
 
-## Dashboard Features
+## 🔄 Project Workflow
 
-* City zone filtering
-* Vehicle type filtering
-* Peak-hour analysis
-* Parking revenue analysis
-* Vehicle count analysis
-* Parking occupancy and congestion evaluation
+### 1. Data Cleaning and Preparation
+Used Microsoft Excel to clean and prepare the dataset for analysis.
 
-## Key Insights
+### 2. Data Transformation
+Used Power Query to transform and organize the data for reporting and visualization.
 
-* Peak hours significantly affect vehicle volume.
-* Some zones generate higher parking revenue than others.
-* Cars and bikes dominate vehicle distribution.
-* Higher congestion corresponds with lower average vehicle speed.
+### 3. Data Analysis
+Explored parking revenue, vehicle distribution, parking utilization, and traffic congestion patterns.
+
+### 4. DAX Measures
+Created DAX measures to perform calculations and support analysis within Power BI.
+
+### 5. Dashboard Development
+Developed an interactive Power BI dashboard to present parking and traffic information through visualizations.
+
+### 6. Insight Generation
+Analyzed the visualized data to identify traffic patterns, parking demand, revenue differences, and congestion-related trends.
+
+
+## 🔍 Key Analysis and Insights
+
+The dashboard explores the following areas:
+
+- **Traffic Analysis:** Examines vehicle flow and traffic activity during different periods.
+- **Parking Utilization:** Analyzes parking occupancy and usage patterns.
+- **Peak-Hour Analysis:** Identifies periods associated with increased vehicle activity and parking demand.
+- **Parking Revenue Analysis:** Compares revenue generated across different zones.
+- **Vehicle Distribution:** Examines the distribution of vehicle types, including cars and bikes.
+- **Congestion Analysis:** Explores traffic congestion patterns and their relationship with average vehicle speed.
+
 
 ## Recommendations
 
@@ -79,8 +90,9 @@ The prepared data was analyzed to explore:
 * Improve traffic flow in highly congested zones.
 * Monitor key performance indicators regularly.
 
-## Repository Structure
+## 📂 Project Structure
 
+```text
 Smart-City-Parking-Traffic-Analytics/
 │
 ├── dashboard/
@@ -97,14 +109,44 @@ Smart-City-Parking-Traffic-Analytics/
 │
 ├── .gitattributes
 └── README.md
+```
     
 
-## How to View the Project
+## 🚀 How to View the Dashboard
 
-1. Open the screenshots to preview the dashboard.
-2. Open the PowerPoint presentation to review the project overview and findings.
-3. Download the `.pbix` file and open it in Power BI Desktop to explore the report.
+1. Clone or download this repository from GitHub.
+2. Install Microsoft Power BI Desktop if it is not already installed.
+3. Navigate to the `dashboard` folder.
+4. Open `smart_city_parking_and_traffic_analytics_project.pbix` using Power BI Desktop.
+5. Explore the dashboard visualizations and available interactive filters.
+6. Refer to the `presentation` folder for the project presentation.
+7. Refer to the `dataset` folder for the Excel dataset.
 
-## Author
+## 📄 Project Files
 
-Muhammed Sinan T A
+| File | Description |
+|---|---|
+| `dashboard/smart_city_parking_and_traffic_analytics_project.pbix` | Power BI dashboard |
+| `dataset/Smart_City_Parking_Dataset.xlsx` | Excel dataset |
+| `presentation/Smart_City_Parking_Traffic_Analytics_PPT.pptx` | Project presentation |
+| `screenshot/smart_city_dashboard.png` | Dashboard preview image |
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning and Preparation
+- Data Transformation using Power Query
+- DAX Measures and Calculations
+- Data Analysis
+- Data Visualization
+- Dashboard Development
+- Exploratory Data Analysis
+- Traffic and Parking Data Analysis
+- Insight Generation and Data-Driven Decision Support
+
+## 👤 Author
+
+**Muhammed Sinan T. A.**
+
+GitHub: [muhammedsinanta](https://github.com/muhammedsinanta)
+
+---
