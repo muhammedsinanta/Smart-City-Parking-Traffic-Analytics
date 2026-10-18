@@ -16,10 +16,21 @@ The dashboard provides insights that can support data-driven decisions for impro
 
 ## Tools and Technologies
 
-* Microsoft Power BI — Dashboard development and data visualization
-* Microsoft Excel — Data cleaning and data preparation
-* Data Analysis
-* Interactive Dashboard Development
+| Tool / Technology               | Purpose                                       |
+| ------------------------------- | --------------------------------------------- |
+| Microsoft Excel                 | Data cleaning and preparation                 |
+| Power Query                     | Data transformation and preparation           |
+| DAX (Data Analysis Expressions) | Creating measures and performing calculations |
+| Microsoft Power BI              | Dashboard development and data visualization  |
+
+## Project Workflow
+
+1. **Data Cleaning:** Used Microsoft Excel to clean and prepare the dataset.
+2. **Data Transformation:** Applied Power Query to transform and organize the data for analysis.
+3. **Data Analysis:** Examined parking revenue, vehicle distribution, occupancy, and traffic congestion patterns.
+4. **DAX Calculations:** Created DAX measures to calculate relevant metrics and support dashboard analysis.
+5. **Dashboard Development:** Built interactive Power BI visualizations with filters for city zones, vehicle types, and peak hours.
+6. **Insight Generation:** Identified traffic and parking patterns and developed recommendations for improving parking management.
 
 
 ## Dashboard Features
@@ -48,17 +59,22 @@ The dashboard provides insights that can support data-driven decisions for impro
 
 ## Repository Structure
 
-```text
 Smart-City-Parking-Traffic-Analytics/
+│
 ├── README.md
+│
 ├── dashboard/
-│   └── Smart_City_Parking_Traffic.pbix
-├── screenshots/
-│   ├── dashboard.png
-│   └── dashboard_2.png
-└── presentation/
-    └── Smart_City_Parking_Traffic_Presentation.pptx
-```
+│   └── smart_city_traffic_and_parking_analytics.pbix
+│
+├── dataset/
+│   └── smart_city_dataset.csv
+│
+├── presentation/
+│   └── smart_city_traffic_and_parking_analytics.pptx
+│
+└── screenshot/
+    ├── smart_city_dashboard.png
+    
 
 ## Dashboard Preview
 
