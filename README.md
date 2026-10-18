@@ -70,12 +70,6 @@ Smart-City-Parking-Traffic-Analytics/
 2. Open the PowerPoint presentation to review the project overview and findings.
 3. Download the `.pbix` file and open it in Power BI Desktop to explore the report.
 
-## Dataset
-
-Smart City Parking & Traffic Dataset.
-
-Add the original dataset source link here if available.
-
 ## Author
 
 Muhammed Sinan T A
